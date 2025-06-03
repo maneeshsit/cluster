@@ -25,10 +25,10 @@
 # or uv run main.py
 ###############################################################################
 
-Core Function   High-performance parallel computing over tightly-coupled nodes
-Transport Layer Shared memory, high-speed interconnects (InfiniBand, Ethernet)
-System Type     HPC clusters (e.g., scientific supercomputers)
-Libraries      OpenMPI, MPICH, Intel MPI (underlying mpi4py)
+#Core Function   High-performance parallel computing over tightly-coupled nodes
+#Transport Layer Shared memory, high-speed interconnects (InfiniBand, Ethernet)
+#System Type     HPC clusters (e.g., scientific supercomputers)
+#Libraries      OpenMPI, MPICH, Intel MPI (underlying mpi4py)
 
 
 ##############################################################################
