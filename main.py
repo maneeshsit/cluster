@@ -94,9 +94,9 @@ while numstested < MAXTOTEST:
         print("Primes found so far: " + str(primesfound))
 
 
-# def main():
-#    print("mpicluster!")
+def main():
+    print("mpicluster!")
 
 
-#if __name__ == "__main__":
-   # main()
+if __name__ == "__main__":
+   main()
