@@ -15,3 +15,12 @@
 # cat ~/.ssh/id_rsa.pub | ssh pi@IP-ADDRESS "cat >> .ssh/authorized_keys"
 #
 # Create cluster file on master node. One line per cluster.
+# On each node make sure all other nodes are listed in
+# /etc/hosts with their right hostnames
+# A copy of the script must be present on each node with the 
+# same path and filename
+#
+# To run it on on cluster
+# mpiexec -hostfile ~/clusterfile python ./main.py
+# or uv run main.py
+###
